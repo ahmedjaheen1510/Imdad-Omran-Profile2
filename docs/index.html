@@ -1,0 +1,4524 @@
+
+<!DOCTYP
+    <!-- Back Cover Section -->
+    <section id="back-cover" class="back-cover-section">
+        <div class="back-cover-container fade-in">
+            <div class="back-cover-content">
+                <div class="back-cover-logo">
+                    <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+                </div>
+
+                <div class="back-cover-company">
+                    <h2>مؤسسة إمداد العمران للمقاولات</h2>
+                    <span>Imdad Al-Omran Contracting Est.</span>
+                </div>
+
+                <div class="back-cover-divider">
+                    <span></span>
+                    <div class="back-cover-star">⭐</div>
+                    <span></span>
+                </div>
+
+                <div class="back-cover-contact">
+                    <div class="back-contact-item">
+                        <div class="back-contact-icon">📍</div>
+                        <div class="back-contact-details">
+                            <h4>العنوان</h4>
+                            <p>ينبع البحر – حي السميري – شارع الأربعين</p>
+                        </div>
+                    </div>
+
+                    <div class="back-contact-item">
+                        <div class="back-contact-icon">📱</div>
+                        <div class="back-contact-details">
+                            <h4>الجوال</h4>
+                            <p>00966544706793</p>
+                            <p>00966567360675</p>
+                        </div>
+                    </div>
+
+                    <div class="back-contact-item">
+                        <div class="back-contact-icon">✉️</div>
+                        <div class="back-contact-details">
+                            <h4>البريد الإلكتروني</h4>
+                            <p>aljaheen1@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="back-cover-stamp">
+                    <div class="stamp-circle-back">
+                        <span class="stamp-text-back">معتمد</span>
+                        <span class="stamp-year-back">2026</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="back-cover-curves">
+                <div class="back-curve"></div>
+                <div class="back-curve"></div>
+                <div class="back-curve"></div>
+            </div>
+        </div>
+    </section>
+
+E html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مؤسسة إمداد العمران للمقاولات | Company Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #0a1628;
+            --secondary-dark: #132238;
+            --accent-blue: #1e88e5;
+            --light-blue: #42a5f5;
+            --gold: #ffd700;
+            --text-light: #e0e0e0;
+            --text-white: #ffffff;
+            --glass-bg: rgba(19, 34, 56, 0.7);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: var(--primary-dark);
+            color: var(--text-light);
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(135deg, #0a1628 0%, #132238 50%, #0d1b2a 100%);
+        }
+
+        .bg-animation::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(30deg, rgba(30, 136, 229, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(30, 136, 229, 0.1) 87.5%, rgba(30, 136, 229, 0.1)),
+                linear-gradient(150deg, rgba(30, 136, 229, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(30, 136, 229, 0.1) 87.5%, rgba(30, 136, 229, 0.1)),
+                linear-gradient(30deg, rgba(30, 136, 229, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(30, 136, 229, 0.1) 87.5%, rgba(30, 136, 229, 0.1)),
+                linear-gradient(150deg, rgba(30, 136, 229, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(30, 136, 229, 0.1) 87.5%, rgba(30, 136, 229, 0.1));
+            background-size: 80px 140px;
+            background-position: 0 0, 0 0, 40px 70px, 40px 70px;
+            opacity: 0.3;
+        }
+
+        /* Floating Curves */
+        .curve {
+            position: absolute;
+            border-radius: 50%;
+            border: 2px solid rgba(30, 136, 229, 0.2);
+            animation: float 20s infinite ease-in-out;
+        }
+
+        .curve:nth-child(1) { width: 300px; height: 300px; top: 10%; left: -100px; animation-delay: 0s; }
+        .curve:nth-child(2) { width: 200px; height: 200px; top: 60%; right: -50px; animation-delay: 5s; border-color: rgba(66, 165, 245, 0.3); }
+        .curve:nth-child(3) { width: 400px; height: 400px; bottom: 20%; left: 30%; animation-delay: 10s; border-color: rgba(30, 136, 229, 0.15); }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            33% { transform: translate(30px, -30px) rotate(120deg); }
+            66% { transform: translate(-20px, 20px) rotate(240deg); }
+        }
+
+        /* Navigation */
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 20px 50px;
+            background: rgba(10, 22, 40, 0.9);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(30, 136, 229, 0.3);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 24px;
+            color: white;
+            box-shadow: 0 4px 15px rgba(30, 136, 229, 0.4);
+        }
+
+        .logo-text h1 {
+            font-size: 1.2rem;
+            color: var(--text-white);
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .logo-text span {
+            font-size: 0.85rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            right: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-blue);
+            transition: width 0.3s;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--light-blue);
+        }
+
+        /* Sections */
+        section {
+            min-height: 100vh;
+            padding: 120px 50px 50px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path d="M0,300 L200,200 L400,350 L600,150 L800,300 L1000,200 L1200,350 L1200,600 L0,600 Z" fill="rgba(30,136,229,0.05)"/></svg>');
+            background-size: cover;
+            opacity: 0.5;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 8px 25px;
+            background: rgba(30, 136, 229, 0.2);
+            border: 1px solid var(--accent-blue);
+            border-radius: 50px;
+            color: var(--light-blue);
+            font-weight: 600;
+            margin-bottom: 30px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(30, 136, 229, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(30, 136, 229, 0); }
+        }
+
+        .hero h2 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--text-white);
+            margin-bottom: 20px;
+            line-height: 1.2;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .hero .subtitle {
+            font-size: 1.5rem;
+            color: var(--light-blue);
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+
+        .hero-description {
+            max-width: 800px;
+            margin: 0 auto 50px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-light);
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            color: white;
+            box-shadow: 0 4px 20px rgba(30, 136, 229, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(30, 136, 229, 0.6);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--text-white);
+            border: 2px solid var(--accent-blue);
+        }
+
+        .btn-outline:hover {
+            background: rgba(30, 136, 229, 0.1);
+            transform: translateY(-3px);
+        }
+
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: var(--text-white);
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--light-blue));
+            border-radius: 2px;
+        }
+
+        .section-header p {
+            color: var(--light-blue);
+            font-size: 1.1rem;
+            margin-top: 20px;
+        }
+
+        .about-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 20px;
+            padding: 40px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .about-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .about-card h3 {
+            font-size: 1.8rem;
+            color: var(--text-white);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .about-card .icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .about-card p {
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .about-image {
+            position: relative;
+        }
+
+        .about-image .img-container {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, rgba(30, 136, 229, 0.2), rgba(66, 165, 245, 0.2));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgba(30, 136, 229, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-image .img-container::before {
+            content: '🏗️';
+            font-size: 120px;
+            opacity: 0.3;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            background: rgba(30, 136, 229, 0.1);
+            border-radius: 15px;
+            border: 1px solid rgba(30, 136, 229, 0.2);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--light-blue);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-top: 5px;
+        }
+
+        /* Vision Section */
+        .vision-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .vision-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .vision-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--light-blue));
+        }
+
+        .vision-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(30, 136, 229, 0.2);
+        }
+
+        .vision-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            font-size: 36px;
+            box-shadow: 0 10px 30px rgba(30, 136, 229, 0.3);
+        }
+
+        .vision-card h3 {
+            font-size: 1.5rem;
+            color: var(--text-white);
+            margin-bottom: 15px;
+        }
+
+        .vision-card p {
+            line-height: 1.7;
+            color: var(--text-light);
+        }
+
+        /* Values Section */
+        .values-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .value-item {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 15px;
+            padding: 30px 20px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .value-item:hover {
+            transform: scale(1.05);
+            border-color: var(--accent-blue);
+            box-shadow: 0 10px 30px rgba(30, 136, 229, 0.2);
+        }
+
+        .value-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .value-item h4 {
+            color: var(--text-white);
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .value-item span {
+            color: var(--light-blue);
+            font-size: 0.9rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(10, 22, 40, 0.95);
+            padding: 40px 50px;
+            text-align: center;
+            border-top: 1px solid rgba(30, 136, 229, 0.3);
+        }
+
+        footer p {
+            color: var(--text-light);
+            margin-bottom: 10px;
+        }
+
+        footer .copyright {
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+        }
+
+        /* Scroll Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s, transform 0.8s;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .about-grid,
+            .vision-grid {
+                grid-template-columns: 1fr;
+            }
+            .values-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .hero h2 {
+                font-size: 2.5rem;
+            }
+            .nav-links {
+                display: none;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+            section {
+                padding: 100px 20px 40px;
+            }
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--primary-dark);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--accent-blue);
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--light-blue);
+        }
+    
+        /* Services Section */
+        .services-intro {
+            max-width: 900px;
+            margin: 0 auto 50px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            padding: 0 20px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 20px;
+            padding: 0;
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(30, 136, 229, 0.1), transparent);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(30, 136, 229, 0.2);
+            border-color: var(--accent-blue);
+        }
+
+        .service-number {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 3rem;
+            font-weight: 800;
+            color: rgba(30, 136, 229, 0.15);
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1;
+            z-index: 1;
+        }
+
+        .service-content {
+            padding: 40px 30px 30px;
+            position: relative;
+            z-index: 2;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(30, 136, 229, 0.3);
+        }
+
+        .service-content h3 {
+            font-size: 1.3rem;
+            color: var(--text-white);
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .service-content p {
+            line-height: 1.7;
+            color: var(--text-light);
+            margin-bottom: 15px;
+            flex: 1;
+        }
+
+        .service-en {
+            display: block;
+            color: var(--light-blue);
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+            font-family: 'Montserrat', sans-serif;
+            border-top: 1px solid rgba(30, 136, 229, 0.2);
+            padding-top: 15px;
+        }
+
+        .service-en-desc {
+            font-size: 0.9rem !important;
+            opacity: 0.8;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6 !important;
+        }
+
+        @media (max-width: 968px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Projects Section */
+        .projects-intro {
+            max-width: 900px;
+            margin: 0 auto 50px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            padding: 0 20px;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .project-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--light-blue));
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(30, 136, 229, 0.2);
+            border-color: var(--accent-blue);
+        }
+
+        .project-header {
+            padding: 30px 30px 20px;
+            text-align: center;
+            border-bottom: 1px solid rgba(30, 136, 229, 0.1);
+            position: relative;
+        }
+
+        .project-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            margin: 0 auto 15px;
+            box-shadow: 0 10px 30px rgba(30, 136, 229, 0.3);
+        }
+
+        .project-sector {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-white);
+            margin-bottom: 5px;
+        }
+
+        .project-sector-en {
+            font-size: 0.9rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .project-content {
+            padding: 25px 30px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-content h3 {
+            font-size: 1.2rem;
+            color: var(--text-white);
+            margin-bottom: 15px;
+            display: none; /* Hide Arabic title as it's in header */
+        }
+
+        .project-list {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .project-list li {
+            padding: 8px 0;
+            padding-right: 25px;
+            position: relative;
+            color: var(--text-light);
+            line-height: 1.6;
+            border-bottom: 1px solid rgba(30, 136, 229, 0.1);
+        }
+
+        .project-list li:last-child {
+            border-bottom: none;
+        }
+
+        .project-list li::before {
+            content: '▸';
+            position: absolute;
+            right: 0;
+            color: var(--accent-blue);
+            font-weight: bold;
+        }
+
+        .project-en-desc {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-light);
+            opacity: 0.8;
+            line-height: 1.6;
+            margin-top: auto;
+            padding-top: 15px;
+            border-top: 1px solid rgba(30, 136, 229, 0.2);
+        }
+
+        .project-footer {
+            padding: 20px 30px;
+            background: rgba(30, 136, 229, 0.05);
+            border-top: 1px solid rgba(30, 136, 229, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .project-tag {
+            display: inline-block;
+            padding: 5px 15px;
+            background: rgba(30, 136, 229, 0.15);
+            border: 1px solid rgba(30, 136, 229, 0.3);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--light-blue);
+            transition: all 0.3s;
+        }
+
+        .project-tag:hover {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Why Choose Us Section */
+        .why-intro {
+            max-width: 900px;
+            margin: 0 auto 50px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            padding: 0 20px;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .why-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 20px;
+            padding: 0;
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .why-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(30, 136, 229, 0.1), transparent);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .why-card:hover::before {
+            opacity: 1;
+        }
+
+        .why-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(30, 136, 229, 0.2);
+            border-color: var(--accent-blue);
+        }
+
+        .why-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin: 30px auto 20px;
+            box-shadow: 0 10px 30px rgba(30, 136, 229, 0.3);
+            position: relative;
+            z-index: 2;
+        }
+
+        .why-content {
+            padding: 0 25px 25px;
+            position: relative;
+            z-index: 2;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .why-content h3 {
+            font-size: 1.2rem;
+            color: var(--text-white);
+            margin-bottom: 12px;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .why-content p {
+            line-height: 1.7;
+            color: var(--text-light);
+            margin-bottom: 15px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .why-en {
+            display: block;
+            color: var(--light-blue);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            border-top: 1px solid rgba(30, 136, 229, 0.2);
+            padding-top: 15px;
+        }
+
+        .why-en-desc {
+            font-size: 0.85rem !important;
+            opacity: 0.8;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6 !important;
+            text-align: center;
+        }
+
+        /* Organization Chart Section */
+        .org-intro {
+            max-width: 800px;
+            margin: 0 auto 50px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            padding: 0 20px;
+        }
+
+        .org-chart-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .org-level {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .org-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .org-row.five-cols {
+            max-width: 100%;
+        }
+
+        .org-row.three-cols {
+            max-width: 800px;
+        }
+
+        .org-box {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(30, 136, 229, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            min-width: 160px;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .org-box:hover {
+            transform: scale(1.05);
+            border-color: var(--accent-blue);
+            box-shadow: 0 10px 30px rgba(30, 136, 229, 0.3);
+        }
+
+        .org-box.top-level {
+            background: linear-gradient(135deg, rgba(30, 136, 229, 0.3), rgba(66, 165, 245, 0.2));
+            border-color: var(--accent-blue);
+            min-width: 200px;
+        }
+
+        .org-box.dept-header {
+            background: linear-gradient(135deg, rgba(30, 136, 229, 0.25), rgba(66, 165, 245, 0.15));
+            border-color: var(--light-blue);
+            min-width: 250px;
+        }
+
+        .org-icon {
+            font-size: 28px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .org-box h3 {
+            font-size: 1.2rem;
+            color: var(--text-white);
+            margin-bottom: 5px;
+        }
+
+        .org-box h4 {
+            font-size: 1rem;
+            color: var(--text-white);
+            margin-bottom: 5px;
+        }
+
+        .org-en {
+            font-size: 0.8rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .org-connector {
+            width: 2px;
+            height: 30px;
+            background: linear-gradient(to bottom, var(--accent-blue), var(--light-blue));
+            margin: 5px 0;
+        }
+
+        @media (max-width: 968px) {
+            .why-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .org-row {
+                gap: 15px;
+            }
+            .org-box {
+                min-width: 140px;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .why-grid {
+                grid-template-columns: 1fr;
+            }
+            .org-row {
+                flex-direction: column;
+                align-items: center;
+            }
+            .org-box {
+                width: 80%;
+            }
+        }
+
+        /* Certificates Section */
+        .cert-intro {
+            max-width: 900px;
+            margin: 0 auto 50px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            padding: 0 20px;
+        }
+
+        .cert-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .cert-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cert-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--light-blue));
+        }
+
+        .cert-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(30, 136, 229, 0.2);
+            border-color: var(--accent-blue);
+        }
+
+        .cert-badge {
+            position: relative;
+            padding: 30px 30px 20px;
+            text-align: center;
+            border-bottom: 1px solid rgba(30, 136, 229, 0.1);
+        }
+
+        .cert-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin: 0 auto;
+            box-shadow: 0 10px 30px rgba(30, 136, 229, 0.3);
+        }
+
+        .cert-number {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: rgba(30, 136, 229, 0.15);
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1;
+        }
+
+        .cert-content {
+            padding: 25px 30px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cert-content h3 {
+            font-size: 1.2rem;
+            color: var(--text-white);
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .cert-content p {
+            line-height: 1.7;
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+
+        .cert-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 15px 0;
+        }
+
+        .cert-list li {
+            padding: 6px 0;
+            padding-right: 20px;
+            position: relative;
+            color: var(--text-light);
+            font-size: 0.95rem;
+            border-bottom: 1px solid rgba(30, 136, 229, 0.1);
+        }
+
+        .cert-list li:last-child {
+            border-bottom: none;
+        }
+
+        .cert-list li::before {
+            content: '•';
+            position: absolute;
+            right: 0;
+            color: var(--accent-blue);
+            font-weight: bold;
+        }
+
+        .cert-en {
+            display: block;
+            color: var(--light-blue);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            font-family: 'Montserrat', sans-serif;
+            border-top: 1px solid rgba(30, 136, 229, 0.2);
+            padding-top: 15px;
+        }
+
+        .cert-en-desc {
+            font-size: 0.85rem !important;
+            opacity: 0.8;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6 !important;
+        }
+
+        .cert-footer {
+            padding: 15px 30px;
+            background: rgba(30, 136, 229, 0.05);
+            border-top: 1px solid rgba(30, 136, 229, 0.1);
+            text-align: center;
+        }
+
+        .cert-status {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(76, 175, 80, 0.2);
+            border: 1px solid rgba(76, 175, 80, 0.4);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #4caf50;
+            font-weight: 700;
+        }
+
+        @media (max-width: 968px) {
+            .cert-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .cert-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Contact Section */
+        .contact-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .contact-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.3);
+            border-radius: 25px;
+            padding: 50px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--light-blue));
+        }
+
+        .contact-logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 25px;
+            background: white;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 0 10px 40px rgba(30, 136, 229, 0.3);
+        }
+
+        .contact-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .company-name {
+            font-size: 1.8rem;
+            color: var(--text-white);
+            margin-bottom: 8px;
+        }
+
+        .company-name-en {
+            font-size: 1rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        .contact-divider {
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--light-blue));
+            margin: 0 auto 30px;
+            border-radius: 2px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            text-align: right;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            padding: 20px;
+            background: rgba(30, 136, 229, 0.1);
+            border-radius: 15px;
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            transition: all 0.3s;
+        }
+
+        .contact-item:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-blue);
+            box-shadow: 0 10px 30px rgba(30, 136, 229, 0.2);
+        }
+
+        .contact-item.wide {
+            grid-column: 1 / -1;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .contact-item.wide .contact-details {
+            text-align: center;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .contact-details h4 {
+            font-size: 1.1rem;
+            color: var(--text-white);
+            margin-bottom: 5px;
+        }
+
+        .contact-details p {
+            color: var(--text-light);
+            margin-bottom: 3px;
+            font-size: 1rem;
+        }
+
+        .contact-en {
+            font-size: 0.85rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Final Section */
+        .final-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #0a1628 0%, #132238 50%, #0d1b2a 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .final-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(30, 136, 229, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(30, 136, 229, 0.1) 0%, transparent 50%);
+        }
+
+        .final-container {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 60px 40px;
+        }
+
+        .final-logo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 40px;
+            background: white;
+            border-radius: 25px;
+            padding: 15px;
+            box-shadow: 0 15px 50px rgba(30, 136, 229, 0.4);
+            animation: floatLogo 6s ease-in-out infinite;
+        }
+
+        @keyframes floatLogo {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        .final-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .final-title {
+            font-size: 3rem;
+            color: var(--text-white);
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+
+        .final-subtitle-en {
+            font-size: 1.5rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 30px;
+        }
+
+        .final-divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .final-divider span {
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent-blue));
+        }
+
+        .final-divider span:last-child {
+            background: linear-gradient(90deg, var(--accent-blue), transparent);
+        }
+
+        .final-star {
+            font-size: 24px;
+            animation: rotateStar 4s linear infinite;
+        }
+
+        @keyframes rotateStar {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .final-message {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: var(--text-light);
+            margin-bottom: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .final-message-en {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--text-light);
+            opacity: 0.8;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .final-company {
+            margin: 30px 0;
+            padding: 25px;
+            background: rgba(30, 136, 229, 0.1);
+            border: 1px solid rgba(30, 136, 229, 0.3);
+            border-radius: 15px;
+        }
+
+        .final-company h3 {
+            font-size: 1.5rem;
+            color: var(--text-white);
+            margin-bottom: 8px;
+        }
+
+        .final-company span {
+            font-size: 1rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .final-stamp {
+            margin-top: 40px;
+        }
+
+        .stamp-circle {
+            width: 100px;
+            height: 100px;
+            border: 3px solid var(--accent-blue);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            position: relative;
+            animation: pulseStamp 2s infinite;
+        }
+
+        @keyframes pulseStamp {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(30, 136, 229, 0.4); }
+            50% { box-shadow: 0 0 0 15px rgba(30, 136, 229, 0); }
+        }
+
+        .stamp-text {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+        }
+
+        .stamp-year {
+            font-size: 0.9rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+            .contact-card {
+                padding: 30px 20px;
+            }
+            .final-title {
+                font-size: 2rem;
+            }
+            .final-message {
+                font-size: 1rem;
+            }
+        }
+
+        /* Back Cover Section */
+        .back-cover-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #0a1628 0%, #132238 50%, #0d1b2a 100%);
+            position: relative;
+            overflow: hidden;
+            padding: 80px 20px;
+        }
+
+        .back-cover-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 30% 20%, rgba(30, 136, 229, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(30, 136, 229, 0.1) 0%, transparent 50%);
+        }
+
+        .back-cover-container {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 700px;
+        }
+
+        .back-cover-content {
+            background: var(--glass-bg);
+            backdrop-filter: blur(15px);
+            border: 2px solid rgba(30, 136, 229, 0.3);
+            border-radius: 30px;
+            padding: 60px 50px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .back-cover-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(30, 136, 229, 0.1), transparent);
+            border-radius: 30px;
+            pointer-events: none;
+        }
+
+        .back-cover-logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 30px;
+            background: white;
+            border-radius: 25px;
+            padding: 15px;
+            box-shadow: 0 15px 40px rgba(30, 136, 229, 0.3);
+            position: relative;
+            z-index: 2;
+        }
+
+        .back-cover-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .back-cover-company {
+            position: relative;
+            z-index: 2;
+            margin-bottom: 30px;
+        }
+
+        .back-cover-company h2 {
+            font-size: 2rem;
+            color: var(--text-white);
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+
+        .back-cover-company span {
+            font-size: 1.1rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .back-cover-divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .back-cover-divider span {
+            width: 80px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent-blue));
+        }
+
+        .back-cover-divider span:last-child {
+            background: linear-gradient(90deg, var(--accent-blue), transparent);
+        }
+
+        .back-cover-star {
+            font-size: 20px;
+        }
+
+        .back-cover-contact {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 30px 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .back-contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 20px;
+            background: rgba(30, 136, 229, 0.1);
+            border-radius: 15px;
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            text-align: right;
+            transition: all 0.3s;
+        }
+
+        .back-contact-item:hover {
+            transform: translateX(-5px);
+            border-color: var(--accent-blue);
+            background: rgba(30, 136, 229, 0.15);
+        }
+
+        .back-contact-icon {
+            width: 45px;
+            height: 45px;
+            min-width: 45px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .back-contact-details {
+            flex: 1;
+        }
+
+        .back-contact-details h4 {
+            font-size: 1rem;
+            color: var(--text-white);
+            margin-bottom: 5px;
+        }
+
+        .back-contact-details p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .back-cover-stamp {
+            margin-top: 40px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .stamp-circle-back {
+            width: 90px;
+            height: 90px;
+            border: 3px solid var(--accent-blue);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            position: relative;
+            background: rgba(30, 136, 229, 0.1);
+        }
+
+        .stamp-text-back {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+        }
+
+        .stamp-year-back {
+            font-size: 0.8rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .back-cover-curves {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .back-curve {
+            position: absolute;
+            border-radius: 50%;
+            border: 2px solid rgba(30, 136, 229, 0.15);
+        }
+
+        .back-curve:nth-child(1) {
+            width: 400px;
+            height: 400px;
+            top: -100px;
+            right: -100px;
+            animation: rotateCurve 30s linear infinite;
+        }
+
+        .back-curve:nth-child(2) {
+            width: 300px;
+            height: 300px;
+            bottom: -50px;
+            left: -50px;
+            animation: rotateCurve 25s linear infinite reverse;
+        }
+
+        .back-curve:nth-child(3) {
+            width: 200px;
+            height: 200px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-color: rgba(30, 136, 229, 0.08);
+            animation: rotateCurve 20s linear infinite;
+        }
+
+        @keyframes rotateCurve {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Page Header with Logo - Added to all sections */
+        .page-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            padding: 15px 25px;
+            background: rgba(30, 136, 229, 0.1);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 15px;
+            max-width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .page-header-logo {
+            width: 45px;
+            height: 45px;
+            background: white;
+            border-radius: 10px;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page-header-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .page-header-text h3 {
+            font-size: 1.1rem;
+            color: var(--text-white);
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        .page-header-text span {
+            font-size: 0.8rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        @media (max-width: 600px) {
+            .back-cover-content {
+                padding: 40px 25px;
+            }
+            .back-cover-company h2 {
+                font-size: 1.5rem;
+            }
+            .back-contact-item {
+                flex-direction: column;
+                text-align: center;
+            }
+            .back-contact-details {
+                text-align: center;
+            }
+        }
+
+        /* Clients Section */
+        .clients-intro {
+            max-width: 900px;
+            margin: 0 auto 50px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            padding: 0 20px;
+        }
+
+        .clients-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .clients-category {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 25px;
+            padding: 40px;
+            transition: all 0.4s;
+        }
+
+        .clients-category:hover {
+            border-color: var(--accent-blue);
+            box-shadow: 0 20px 40px rgba(30, 136, 229, 0.15);
+        }
+
+        .category-header {
+            text-align: center;
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 2px solid rgba(30, 136, 229, 0.2);
+        }
+
+        .category-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin: 0 auto 20px;
+            box-shadow: 0 10px 30px rgba(30, 136, 229, 0.3);
+        }
+
+        .category-header h3 {
+            font-size: 1.5rem;
+            color: var(--text-white);
+            margin-bottom: 8px;
+        }
+
+        .category-header span {
+            font-size: 1rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .clients-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .client-item {
+            background: rgba(30, 136, 229, 0.08);
+            border: 1px solid rgba(30, 136, 229, 0.15);
+            border-radius: 15px;
+            padding: 25px 15px;
+            text-align: center;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .client-item:hover {
+            transform: translateY(-5px);
+            background: rgba(30, 136, 229, 0.15);
+            border-color: var(--accent-blue);
+            box-shadow: 0 10px 25px rgba(30, 136, 229, 0.2);
+        }
+
+        .client-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 15px;
+            box-shadow: 0 5px 15px rgba(30, 136, 229, 0.3);
+        }
+
+        .client-item h4 {
+            font-size: 1rem;
+            color: var(--text-white);
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .client-item span {
+            font-size: 0.85rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 968px) {
+            .clients-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .clients-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .clients-category {
+                padding: 25px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .clients-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Government Contracts Section */
+        .contracts-intro {
+            max-width: 900px;
+            margin: 0 auto 50px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            padding: 0 20px;
+        }
+
+        .contracts-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .contract-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s;
+            position: relative;
+        }
+
+        .contract-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--light-blue));
+        }
+
+        .contract-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(30, 136, 229, 0.2);
+            border-color: var(--accent-blue);
+        }
+
+        .contract-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 30px 15px;
+            border-bottom: 1px solid rgba(30, 136, 229, 0.1);
+        }
+
+        .contract-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: rgba(30, 136, 229, 0.2);
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1;
+        }
+
+        .contract-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(30, 136, 229, 0.2);
+            border: 1px solid var(--accent-blue);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: var(--light-blue);
+            font-weight: 700;
+        }
+
+        .contract-badge.contract-private {
+            background: rgba(255, 193, 7, 0.2);
+            border-color: #ffc107;
+            color: #ffc107;
+        }
+
+        .contract-content {
+            padding: 25px 30px 30px;
+        }
+
+        .contract-content h3 {
+            font-size: 1.3rem;
+            color: var(--text-white);
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .contract-en-title {
+            display: block;
+            font-size: 0.95rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(30, 136, 229, 0.2);
+        }
+
+        .contract-details {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contract-detail-item {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .contract-detail-item.half {
+            flex: 1;
+        }
+
+        .contract-detail-row {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .detail-label {
+            font-size: 0.9rem;
+            color: var(--light-blue);
+            font-weight: 700;
+        }
+
+        .detail-value {
+            font-size: 1rem;
+            color: var(--text-white);
+            line-height: 1.5;
+        }
+
+        .detail-value.highlight {
+            color: var(--gold);
+            font-weight: 700;
+        }
+
+        .detail-en {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            opacity: 0.7;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .detail-list {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin: 5px 0;
+        }
+
+        .detail-list .detail-value {
+            padding-right: 15px;
+            position: relative;
+        }
+
+        @media (max-width: 768px) {
+            .contract-header {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+            .contract-detail-row {
+                flex-direction: column;
+            }
+        }
+
+        /* Completed Projects Section */
+        .projects-intro {
+            max-width: 900px;
+            margin: 0 auto 50px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            padding: 0 20px;
+        }
+
+        .completed-projects-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .completed-project-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s;
+            position: relative;
+        }
+
+        .completed-project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--light-blue));
+        }
+
+        .completed-project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(30, 136, 229, 0.2);
+            border-color: var(--accent-blue);
+        }
+
+        .project-header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            background: rgba(30, 136, 229, 0.1);
+            border-bottom: 1px solid rgba(30, 136, 229, 0.2);
+        }
+
+        .project-num {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--accent-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .project-type {
+            display: inline-block;
+            padding: 6px 18px;
+            background: rgba(30, 136, 229, 0.2);
+            border: 1px solid var(--accent-blue);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--light-blue);
+            font-weight: 700;
+        }
+
+        .completed-project-content {
+            padding: 30px;
+        }
+
+        .completed-project-content h3 {
+            font-size: 1.3rem;
+            color: var(--text-white);
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .project-en-title {
+            display: block;
+            font-size: 0.95rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(30, 136, 229, 0.2);
+        }
+
+        .project-info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .project-info-item {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding: 15px;
+            background: rgba(30, 136, 229, 0.05);
+            border-radius: 10px;
+            border: 1px solid rgba(30, 136, 229, 0.1);
+        }
+
+        .project-info-item.full {
+            grid-column: 1 / -1;
+        }
+
+        .project-info-item.highlight-box {
+            background: rgba(255, 193, 7, 0.1);
+            border-color: rgba(255, 193, 7, 0.3);
+        }
+
+        .info-label {
+            font-size: 0.85rem;
+            color: var(--light-blue);
+            font-weight: 700;
+        }
+
+        .info-value {
+            font-size: 1rem;
+            color: var(--text-white);
+            line-height: 1.5;
+        }
+
+        .info-value.price {
+            color: var(--gold);
+            font-weight: 800;
+            font-size: 1.2rem;
+        }
+
+        .info-en {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            opacity: 0.7;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .info-list {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .project-info-grid {
+                grid-template-columns: 1fr;
+            }
+            .project-header-bar {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+        }
+
+        /* Capabilities Section */
+        .capabilities-intro {
+            max-width: 900px;
+            margin: 0 auto 50px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            padding: 0 20px;
+        }
+
+        .capabilities-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .capability-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .capability-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--light-blue));
+        }
+
+        .capability-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(30, 136, 229, 0.2);
+            border-color: var(--accent-blue);
+        }
+
+        .capability-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 30px 15px;
+            border-bottom: 1px solid rgba(30, 136, 229, 0.1);
+        }
+
+        .capability-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            box-shadow: 0 8px 25px rgba(30, 136, 229, 0.3);
+        }
+
+        .capability-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: rgba(30, 136, 229, 0.15);
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1;
+        }
+
+        .capability-content {
+            padding: 25px 30px 30px;
+        }
+
+        .capability-content h3 {
+            font-size: 1.3rem;
+            color: var(--text-white);
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .capability-en {
+            display: block;
+            font-size: 0.95rem;
+            color: var(--light-blue);
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(30, 136, 229, 0.2);
+        }
+
+        .capability-content p {
+            line-height: 1.7;
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+
+        .capability-en-desc {
+            font-size: 0.9rem !important;
+            opacity: 0.8;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6 !important;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(30, 136, 229, 0.2);
+        }
+
+        .capability-list {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 15px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+        }
+
+        .capability-list li {
+            padding: 8px 15px;
+            background: rgba(30, 136, 229, 0.1);
+            border-radius: 8px;
+            border: 1px solid rgba(30, 136, 229, 0.2);
+            color: var(--text-light);
+            font-size: 0.95rem;
+            transition: all 0.3s;
+        }
+
+        .capability-list li:hover {
+            background: rgba(30, 136, 229, 0.2);
+            transform: translateX(-5px);
+        }
+
+        @media (max-width: 768px) {
+            .capability-header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+            .capability-list {
+                grid-template-columns: 1fr;
+            }
+        }
+</style>
+<base target="_blank">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="curve"></div>
+        <div class="curve"></div>
+        <div class="curve"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="logo">
+            <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران" style="width: 50px; height: 50px; border-radius: 12px; object-fit: contain; background: white; padding: 3px; box-shadow: 0 4px 15px rgba(30, 136, 229, 0.4);">
+            <div class="logo-text">
+                <h1>إمداد العمران</h1>
+                <span>Imdad Al-Omran</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#vision">الرؤية</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#projects">مشاريعنا</a></li>
+            <li><a href="#why-us">لماذا نحن</a></li>
+            <li><a href="#org-chart">الهيكل التنظيمي</a></li>
+            <li><a href="#certificates">الشهادات</a></li>
+            <li><a href="#clients">العملاء</a></li>
+            <li><a href="#contracts">العقود</a></li>
+            <li><a href="#completed-projects">المشاريع</a></li>
+            <li><a href="#capabilities">قدراتنا</a></li>
+            
+            
+            
+            
+            <li><a href="#contact">التواصل</a></li>
+            
+            
+            
+            
+            <li><a href="#values">القيم</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">ملف تعريفي 2026</div>
+            <h2>مؤسسة إمداد العمران للمقاولات</h2>
+            <p class="subtitle">Imdad Al-Omran Contracting Est.</p>
+            <p class="hero-description">
+                نقدم حلولاً هندسية متكاملة وأعمال مقاولات بمعايير عالمية، 
+                نخدم القطاعات الحكومية والعسكرية والطبية بأعلى مستويات الجودة والسلامة
+            </p>
+            <div class="cta-buttons">
+                <a href="#about" class="btn btn-primary">تعرف علينا</a>
+                <a href="#vision" class="btn btn-outline">رؤيتنا</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+        <!-- About Section -->
+    <section id="about">
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+
+        <div class="section-header fade-in">
+            <h2>من نحن</h2>
+            <p>About Us</p>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-card fade-in">
+                <h3>
+                    <span class="icon">🇸🇦</span>
+                    نبذة تعريفية
+                </h3>
+                <p>
+                    تأسست مؤسسة إمداد العمران للمقاولات عام 2015 في مدينة ينبع بالمملكة العربية السعودية، 
+                    وتعد إحدى المؤسسات الوطنية المتخصصة في تنفيذ مشاريع المقاولات والتشييد والبناء والتشغيل والصيانة والخدمات.
+                </p>
+                <p>
+                    ومنذ انطلاقتها، التزمت المؤسسة بتقديم حلول هندسية متكاملة تعتمد على أعلى معايير الجودة والسلامة، 
+                    وبما يتوافق مع متطلبات الجهات الحكومية والقطاعات الحيوية في المملكة.
+                </p>
+                <p>
+                    تتميز المؤسسة بقدرتها على إدارة وتنفيذ المشاريع بكفاءة عالية، من خلال كوادر فنية وإدارية مؤهلة، 
+                    ونظام تشغيلي يعتمد على التخطيط الدقيق، والالتزام بالمواصفات الفنية، وتسليم المشاريع ضمن الجداول الزمنية المعتمدة.
+                </p>
+                <p>
+                    كما تمتلك المؤسسة خبرة واسعة في تنفيذ مشاريع متنوعة تشمل أعمال الإنشاءات، البنية التحتية، 
+                    التجهيزات، التشغيل والصيانة، إضافة إلى خدمات الدعم الفني والخدمات المساندة.
+                </p>
+                <p>
+                    وتسعى مؤسسة إمداد العمران إلى تعزيز دورها كشريك موثوق للجهات الحكومية والقطاع الخاص، 
+                    من خلال تقديم أعمال احترافية تلبي تطلعات العملاء وتنسجم مع رؤية المملكة 2030 
+                    في تطوير البنية التحتية ورفع كفاءة المشاريع.
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">+10</span>
+                        <span class="stat-label">سنوات خبرة</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">+50</span>
+                        <span class="stat-label">مشروع منفذ</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">رضا العملاء</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image fade-in">
+                <div class="img-container"></div>
+            </div>
+        </div>
+
+        <div class="about-grid" style="margin-top: 40px; direction: ltr; text-align: left;">
+            <div class="about-image fade-in">
+                <div class="img-container" style="direction: rtl;"></div>
+            </div>
+            <div class="about-card fade-in" style="direction: ltr; text-align: left;">
+                <h3 style="flex-direction: row-reverse;">
+                    <span class="icon">🌍</span>
+                    About Us
+                </h3>
+                <p style="font-family: 'Montserrat', sans-serif; line-height: 1.8;">
+                    Imdad Al-Omran Contracting Est. was established in 2015 in Yanbu, Saudi Arabia. 
+                    We are a national establishment specialized in contracting, construction, building, 
+                    operation, maintenance, and services.
+                </p>
+                <br>
+                <p style="font-family: 'Montserrat', sans-serif; line-height: 1.8;">
+                    Since our inception, we have been committed to delivering integrated engineering solutions 
+                    based on the highest quality and safety standards, in compliance with government requirements 
+                    and vital sectors in the Kingdom.
+                </p>
+                <br>
+                <p style="font-family: 'Montserrat', sans-serif; line-height: 1.8;">
+                    We are distinguished by our ability to manage and execute projects with high efficiency, 
+                    through qualified technical and administrative staff, and an operational system that relies 
+                    on precise planning, adherence to technical specifications, and delivering projects within 
+                    approved timelines.
+                </p>
+                <br>
+                <p style="font-family: 'Montserrat', sans-serif; line-height: 1.8;">
+                    We have extensive experience in executing diverse projects including construction works, 
+                    infrastructure, equipment, operation and maintenance, as well as technical support 
+                    and auxiliary services.
+                </p>
+                <br>
+                <p style="font-family: 'Montserrat', sans-serif; line-height: 1.8;">
+                    Imdad Al-Omran Contracting Est. strives to enhance its role as a trusted partner 
+                    for government and private sectors, by delivering professional works that meet client 
+                    expectations and align with Saudi Vision 2030 in developing infrastructure and 
+                    enhancing project efficiency.
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">+10</span>
+                        <span class="stat-label" style="font-family: 'Montserrat', sans-serif;">Years Exp.</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">+50</span>
+                        <span class="stat-label" style="font-family: 'Montserrat', sans-serif;">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label" style="font-family: 'Montserrat', sans-serif;">Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision">
+        <div 
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+        class="section-header fade-in">
+            <h2>الرؤية والرسالة</h2>
+            <p>Vision & Mission</p>
+        </div>
+        <div class="vision-grid">
+            <div class="vision-card fade-in">
+                <div class="vision-icon">👁️</div>
+                <h3>الرؤية</h3>
+                <p>أن نكون من المؤسسات الرائدة في قطاع المقاولات، ونموذجًا في الجودة والالتزام.</p>
+                <hr style="margin: 20px 0; border-color: rgba(30, 136, 229, 0.2);">
+                <p style="font-family: 'Montserrat', sans-serif; font-size: 0.95rem;">
+                    To become a leading contracting establishment recognized for quality and reliability.
+                </p>
+            </div>
+            <div class="vision-card fade-in">
+                <div class="vision-icon">🎯</div>
+                <h3>الرسالة</h3>
+                <p>تقديم خدمات هندسية ومشاريع متكاملة بمعايير احترافية تلبي تطلعات العملاء.</p>
+                <hr style="margin: 20px 0; border-color: rgba(30, 136, 229, 0.2);">
+                <p style="font-family: 'Montserrat', sans-serif; font-size: 0.95rem;">
+                    Delivering integrated engineering and construction services with professional standards.
+                </p>
+            </div>
+            <div class="vision-card fade-in">
+                <div class="vision-icon">🤝</div>
+                <h3>الأهداف</h3>
+                <p>التميز في التنفيذ، الالتزام بالمواعيد، تطوير الكوادر، وتبني أحدث التقنيات.</p>
+                <hr style="margin: 20px 0; border-color: rgba(30, 136, 229, 0.2);">
+                <p style="font-family: 'Montserrat', sans-serif; font-size: 0.95rem;">
+                    Excellence in execution, timely delivery, staff development, and technology adoption.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values">
+        <div class="section-header fade-in">
+            <h2>قيمنا</h2>
+            <p>Our Values</p>
+        </div>
+        <div class="values-container">
+            <div class="values-grid">
+                <div class="value-item fade-in">
+                    <span class="value-icon">⭐</span>
+                    <h4>الجودة</h4>
+                    <span>Quality</span>
+                </div>
+                <div class="value-item fade-in">
+                    <span class="value-icon">🤝</span>
+                    <h4>الالتزام</h4>
+                    <span>Commitment</span>
+                </div>
+                <div class="value-item fade-in">
+                    <span class="value-icon">🔍</span>
+                    <h4>الشفافية</h4>
+                    <span>Transparency</span>
+                </div>
+                <div class="value-item fade-in">
+                    <span class="value-icon">🛡️</span>
+                    <h4>السلامة</h4>
+                    <span>Safety</span>
+                </div>
+                <div class="value-item fade-in">
+                    <span class="value-icon">👥</span>
+                    <h4>العمل بروح الفريق</h4>
+                    <span>Teamwork</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Services Section -->
+        <!-- Services Section -->
+    <section id="services">
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+
+        <div class="section-header fade-in">
+            <h2>خدماتنا</h2>
+            <p>Our Services</p>
+        </div>
+
+        <div class="services-intro fade-in">
+            <p>
+                تقدم مؤسسة إمداد العمران للمقاولات مجموعة واسعة من الخدمات الهندسية والمقاولاتية 
+                التي تلبي احتياجات القطاع الحكومي، العسكري، والقطاع الطبي، مع الالتزام بأعلى معايير الجودة والسلامة.
+            </p>
+        </div>
+
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card fade-in">
+                <div class="service-number">01</div>
+                <div class="service-content">
+                    <div class="service-icon">🏗️</div>
+                    <h3>أعمال الإنشاءات العامة</h3>
+                    <p>تنفيذ جميع أعمال البناء والإنشاءات للمشاريع السكنية والتجارية والحكومية وفق أعلى معايير الجودة.</p>
+                    <span class="service-en">General Construction</span>
+                    <p class="service-en-desc">We execute all general construction works for residential, commercial, and government projects with top-tier quality standards.</p>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-card fade-in">
+                <div class="service-number">02</div>
+                <div class="service-content">
+                    <div class="service-icon">🧱</div>
+                    <h3>أعمال الخرسانة المسلحة</h3>
+                    <p>صب وتنفيذ العناصر الخرسانية بجميع أنواعها باستخدام معدات حديثة وكوادر متخصصة.</p>
+                    <span class="service-en">Reinforced Concrete Works</span>
+                    <p class="service-en-desc">We provide reinforced concrete works, delivering structural elements with precision and advanced equipment.</p>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card fade-in">
+                <div class="service-number">03</div>
+                <div class="service-content">
+                    <div class="service-icon">🎨</div>
+                    <h3>أعمال التشطيبات الداخلية والخارجية</h3>
+                    <p>تشطيبات عالية الجودة تشمل: الدهانات، الجبس، الرخام، البورسلان، الأرضيات، الأسقف، والواجهات.</p>
+                    <span class="service-en">Interior & Exterior Finishing</span>
+                    <p class="service-en-desc">We deliver premium interior and exterior finishing works, including paint, gypsum, marble, porcelain, flooring, ceilings, and façades.</p>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card fade-in">
+                <div class="service-number">04</div>
+                <div class="service-content">
+                    <div class="service-icon">🖌️</div>
+                    <h3>أعمال اللياسة والدهانات</h3>
+                    <p>تنفيذ اللياسة الداخلية والخارجية بجودة عالية، مع دهانات احترافية مقاومة للعوامل الجوية.</p>
+                    <span class="service-en">Plastering & Painting</span>
+                    <p class="service-en-desc">We perform plastering and painting works with durable, weather-resistant finishes.</p>
+                </div>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="service-card fade-in">
+                <div class="service-number">05</div>
+                <div class="service-content">
+                    <div class="service-icon">🪟</div>
+                    <h3>أعمال الواجهات الزجاجية والألومنيوم</h3>
+                    <p>تركيب واجهات استركتشر، سكاي لايت، أبواب ألومنيوم، وزجاج مقسى ولامينيت.</p>
+                    <span class="service-en">Glass & Aluminum Façades</span>
+                    <p class="service-en-desc">We install glass and aluminum façades, including structural glazing, skylights, aluminum doors, and laminated glass systems.</p>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="service-card fade-in">
+                <div class="service-number">06</div>
+                <div class="service-content">
+                    <div class="service-icon">🔩</div>
+                    <h3>الأعمال المعدنية</h3>
+                    <p>تنفيذ الهناجر، البوابات الحديدية، الأبواب المعدنية، والكلادينج بجودة عالية.</p>
+                    <span class="service-en">Metal Works</span>
+                    <p class="service-en-desc">We provide metal works, including steel structures, hangars, iron gates, metal doors, and cladding.</p>
+                </div>
+            </div>
+
+            <!-- Service 7 -->
+            <div class="service-card fade-in">
+                <div class="service-number">07</div>
+                <div class="service-content">
+                    <div class="service-icon">🏛️</div>
+                    <h3>أعمال الأرضيات والرخام والبورسلان</h3>
+                    <p>توريد وتركيب جميع أنواع الأرضيات للمشاريع السكنية والتجارية.</p>
+                    <span class="service-en">Flooring, Marble & Porcelain</span>
+                    <p class="service-en-desc">We supply and install all types of flooring materials, including marble, porcelain, and granite.</p>
+                </div>
+            </div>
+
+            <!-- Service 8 -->
+            <div class="service-card fade-in">
+                <div class="service-number">08</div>
+                <div class="service-content">
+                    <div class="service-icon">⚡</div>
+                    <h3>أعمال الكهرباء</h3>
+                    <p>تأسيس وتشطيب الأنظمة الكهربائية: مخارج، مفاتيح، لوحات، إنارة داخلية وخارجية.</p>
+                    <span class="service-en">Electrical Works</span>
+                    <p class="service-en-desc">We execute electrical works, including wiring, panels, switches, and lighting systems.</p>
+                </div>
+            </div>
+
+            <!-- Service 9 -->
+            <div class="service-card fade-in">
+                <div class="service-number">09</div>
+                <div class="service-content">
+                    <div class="service-icon">🔧</div>
+                    <h3>أعمال السباكة والميكانيكا</h3>
+                    <p>تنفيذ شبكات المياه والصرف الصحي، وتركيب الأدوات الصحية والميكانيكية.</p>
+                    <span class="service-en">Plumbing & Mechanical Works</span>
+                    <p class="service-en-desc">We provide plumbing and mechanical works, including water networks, drainage, and mechanical installations.</p>
+                </div>
+            </div>
+
+            <!-- Service 10 -->
+            <div class="service-card fade-in">
+                <div class="service-number">10</div>
+                <div class="service-content">
+                    <div class="service-icon">❄️</div>
+                    <h3>أعمال التكييف</h3>
+                    <p>تركيب وحدات التكييف المنفصلة والمركزية (باكيج) بجودة عالية.</p>
+                    <span class="service-en">HVAC Systems</span>
+                    <p class="service-en-desc">We install HVAC systems, including split units and central package units.</p>
+                </div>
+            </div>
+
+            <!-- Service 11 -->
+            <div class="service-card fade-in">
+                <div class="service-number">11</div>
+                <div class="service-content">
+                    <div class="service-icon">🛠️</div>
+                    <h3>أعمال التشغيل والصيانة</h3>
+                    <p>صيانة المباني، الأنظمة الكهربائية، الميكانيكية، التكييف، والواجهات.</p>
+                    <span class="service-en">Operation & Maintenance</span>
+                    <p class="service-en-desc">We offer operation and maintenance services for buildings and all related systems.</p>
+                </div>
+            </div>
+
+            <!-- Service 12 -->
+            <div class="service-card fade-in">
+                <div class="service-number">12</div>
+                <div class="service-content">
+                    <div class="service-icon">🌳</div>
+                    <h3>أعمال الموقع العام</h3>
+                    <p>تنفيذ الأرصفة، البردورات، الإنترلوك، التشجير، المظلات، وأعمال الأسفلت.</p>
+                    <span class="service-en">Site Development Works</span>
+                    <p class="service-en-desc">We execute site development works, including curbstones, interlock, landscaping, shades, and asphalt works.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div 
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+        class="section-header fade-in">
+            <h2>مشاريعنا</h2>
+            <p>Our Projects</p>
+        </div>
+
+        <div class="projects-intro fade-in">
+            <p>
+                نفذت مؤسسة إمداد العمران للمقاولات مجموعة من المشاريع المتنوعة في القطاعات الحكومية، 
+                العسكرية، والقطاع الطبي، مع الالتزام بالجودة، السلامة، والدقة في التنفيذ.
+            </p>
+            <p style="font-family: 'Montserrat', sans-serif; margin-top: 15px; font-size: 0.95rem; opacity: 0.9;">
+                Imdad Al-Omran Contracting Est. has successfully delivered a wide range of projects 
+                across government, military, and medical sectors.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1: Government -->
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon">🏛️</div>
+                    <div class="project-sector">القطاع الحكومي</div>
+                    <div class="project-sector-en">Government Sector</div>
+                </div>
+                <div class="project-content">
+                    <h3>مشاريع القطاع الحكومي</h3>
+                    <ul class="project-list">
+                        <li>أعمال إنشاء وصيانة مباني حكومية</li>
+                        <li>تنفيذ أعمال كهرباء وميكانيكا</li>
+                        <li>تجهيزات وتشطيبات داخلية وخارجية</li>
+                    </ul>
+                    <p class="project-en-desc">
+                        Construction, maintenance, finishing, and MEP works for government facilities.
+                    </p>
+                </div>
+                <div class="project-footer">
+                    <span class="project-tag">مباني حكومية</span>
+                    <span class="project-tag">MEP</span>
+                    <span class="project-tag">تشطيبات</span>
+                </div>
+            </div>
+
+            <!-- Project 2: Military -->
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon">🎖️</div>
+                    <div class="project-sector">القطاع العسكري</div>
+                    <div class="project-sector-en">Military Sector</div>
+                </div>
+                <div class="project-content">
+                    <h3>مشاريع القطاع العسكري</h3>
+                    <ul class="project-list">
+                        <li>تنفيذ أعمال إنشائية لصالح قطاعات عسكرية</li>
+                        <li>تركيب هياكل حديدية ومستودعات</li>
+                        <li>أعمال صيانة وتشغيل مرافق</li>
+                    </ul>
+                    <p class="project-en-desc">
+                        Steel structures, warehouses, construction works, and facility maintenance.
+                    </p>
+                </div>
+                <div class="project-footer">
+                    <span class="project-tag">هياكل حديدية</span>
+                    <span class="project-tag">مستودعات</span>
+                    <span class="project-tag">صيانة</span>
+                </div>
+            </div>
+
+            <!-- Project 3: Medical -->
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon">🏥</div>
+                    <div class="project-sector">القطاع الطبي</div>
+                    <div class="project-sector-en">Medical Sector</div>
+                </div>
+                <div class="project-content">
+                    <h3>مشاريع القطاع الطبي</h3>
+                    <ul class="project-list">
+                        <li>تجهيز غرف طبية وإدارية</li>
+                        <li>أعمال كهرباء وميكانيكا للمستشفيات</li>
+                        <li>تركيب أنظمة تخزين ورفوف أرشيف</li>
+                    </ul>
+                    <p class="project-en-desc">
+                        Hospital MEP works, room preparation, administrative areas, and storage systems.
+                    </p>
+                </div>
+                <div class="project-footer">
+                    <span class="project-tag">تجهيزات طبية</span>
+                    <span class="project-tag">MEP</span>
+                    <span class="project-tag">رفوف أرشيف</span>
+                </div>
+            </div>
+
+            <!-- Project 4: Warehousing -->
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon">📦</div>
+                    <div class="project-sector">المستودعات والرفوف</div>
+                    <div class="project-sector-en">Warehousing & Shelving</div>
+                </div>
+                <div class="project-content">
+                    <h3>مشاريع المستودعات والرفوف</h3>
+                    <ul class="project-list">
+                        <li>توريد وتركيب رفوف أرشيف</li>
+                        <li>رفوف مستودعات صناعية</li>
+                        <li>أنظمة تخزين عالية التحمل</li>
+                    </ul>
+                    <p class="project-en-desc">
+                        Archive shelving, warehouse racks, and industrial storage systems.
+                    </p>
+                </div>
+                <div class="project-footer">
+                    <span class="project-tag">رفوف أرشيف</span>
+                    <span class="project-tag">مستودعات صناعية</span>
+                    <span class="project-tag">أنظمة تخزين</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why Choose Us Section -->
+        <!-- Why Choose Us Section -->
+    <section id="why-us">
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+
+        <div class="section-header fade-in">
+            <h2>لماذا نحن؟</h2>
+            <p>Why Choose Us</p>
+        </div>
+
+        <div class="why-intro fade-in">
+            <p>
+                نلتزم في مؤسسة إمداد العمران للمقاولات بتقديم خدمات عالية الجودة، مع التركيز على الدقة، 
+                الالتزام، والاحترافية في جميع مراحل العمل.
+            </p>
+        </div>
+
+        <div class="why-grid">
+            <!-- Reason 1 -->
+            <div class="why-card fade-in">
+                <div class="why-icon">🏛️</div>
+                <div class="why-content">
+                    <h3>خبرة تنفيذية واسعة في مشاريع حكومية وخاصة</h3>
+                    <p>تمتلك مؤسسة إمداد العمران خبرة عملية في تنفيذ مشاريع متنوعة تشمل الإنشاءات، التشطيبات، التشغيل والصيانة، مما يجعلها شريكًا موثوقًا للجهات الحكومية والقطاع الخاص.</p>
+                    <span class="why-en">Extensive Execution Experience</span>
+                    <p class="why-en-desc">Extensive experience in delivering government and private sector projects, including construction, finishing works, and O&M services.</p>
+                </div>
+            </div>
+
+            <!-- Reason 2 -->
+            <div class="why-card fade-in">
+                <div class="why-icon">⭐</div>
+                <div class="why-content">
+                    <h3>التزام كامل بالجودة والمواصفات</h3>
+                    <p>نلتزم بتطبيق أعلى معايير الجودة والسلامة وفق الأنظمة السعودية والمواصفات الفنية المعتمدة.</p>
+                    <span class="why-en">Full Quality & Specifications Commitment</span>
+                    <p class="why-en-desc">We maintain strict adherence to quality and safety standards, ensuring compliance with all approved specifications.</p>
+                </div>
+            </div>
+
+            <!-- Reason 3 -->
+            <div class="why-card fade-in">
+                <div class="why-icon">👷</div>
+                <div class="why-content">
+                    <h3>كوادر فنية وإدارية مؤهلة</h3>
+                    <p>فريقنا يضم مهندسين وفنيين ذوي خبرة عالية قادرين على إدارة وتنفيذ المشاريع بكفاءة.</p>
+                    <span class="why-en">Qualified Technical & Administrative Team</span>
+                    <p class="why-en-desc">Our team consists of highly qualified engineers and technicians capable of delivering projects efficiently.</p>
+                </div>
+            </div>
+
+            <!-- Reason 4 -->
+            <div class="why-card fade-in">
+                <div class="why-icon">⏱️</div>
+                <div class="why-content">
+                    <h3>تسليم المشاريع في الوقت المحدد</h3>
+                    <p>نلتزم بالجداول الزمنية المعتمدة ونضمن إنجاز الأعمال دون تأخير.</p>
+                    <span class="why-en">On-Time Project Delivery</span>
+                    <p class="why-en-desc">We ensure on-time project delivery with strict adherence to approved schedules.</p>
+                </div>
+            </div>
+
+            <!-- Reason 5 -->
+            <div class="why-card fade-in">
+                <div class="why-icon">📊</div>
+                <div class="why-content">
+                    <h3>قدرة عالية على إدارة المشاريع</h3>
+                    <p>نستخدم منهجيات إدارة مشاريع احترافية لضمان جودة التنفيذ ومتابعة جميع مراحل العمل.</p>
+                    <span class="why-en">Strong Project Management Capability</span>
+                    <p class="why-en-desc">We apply professional project management methodologies to ensure smooth execution and quality control.</p>
+                </div>
+            </div>
+
+            <!-- Reason 6 -->
+            <div class="why-card fade-in">
+                <div class="why-icon">🏗️</div>
+                <div class="why-content">
+                    <h3>حلول متكاملة تحت سقف واحد</h3>
+                    <p>من التصميم إلى التنفيذ والتشغيل والصيانة، نقدم خدمات متكاملة تلبي احتياجات العملاء.</p>
+                    <span class="why-en">Integrated Solutions Under One Roof</span>
+                    <p class="why-en-desc">We provide end-to-end solutions from construction to finishing, operation, and maintenance.</p>
+                </div>
+            </div>
+
+            <!-- Reason 7 -->
+            <div class="why-card fade-in">
+                <div class="why-icon">📜</div>
+                <div class="why-content">
+                    <h3>سجل قوي من العقود الحكومية</h3>
+                    <p>لدينا عقود مثبتة مع جهات حكومية كبرى مثل: وزارة الدفاع – حرس الحدود – وزارة الصحة – مشاريع الإسكان – شركات كبرى مثل أرامكو وإعمار.</p>
+                    <span class="why-en">Strong Government Contract Record</span>
+                    <p class="why-en-desc">We have a proven track record with major government entities and leading companies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization Chart Section -->
+    <section id="org-chart">
+        <div 
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+        class="section-header fade-in">
+            <h2>الهيكل التنظيمي</h2>
+            <p>Organization Chart</p>
+        </div>
+
+        <div class="org-intro fade-in">
+            <p>
+                يعكس الهيكل التنظيمي لمؤسسة إمداد العمران للمقاولات وضوح المسؤوليات وسلاسة إدارة المشاريع.
+            </p>
+        </div>
+
+        <div class="org-chart-container fade-in">
+            <!-- Top Management -->
+            <div class="org-level">
+                <div class="org-box top-level">
+                    <div class="org-icon">👔</div>
+                    <h3>الإدارة العليا</h3>
+                    <span class="org-en">Top Management</span>
+                </div>
+            </div>
+
+            <div class="org-connector"></div>
+
+            <div class="org-row">
+                <div class="org-box">
+                    <div class="org-icon">📋</div>
+                    <h4>المدير العام</h4>
+                    <span class="org-en">General Manager</span>
+                </div>
+                <div class="org-box">
+                    <div class="org-icon">📊</div>
+                    <h4>مدير المشاريع</h4>
+                    <span class="org-en">Project Manager</span>
+                </div>
+            </div>
+
+            <div class="org-connector"></div>
+
+            <!-- Engineering Department -->
+            <div class="org-level">
+                <div class="org-box dept-header">
+                    <div class="org-icon">🔧</div>
+                    <h3>الإدارة الهندسية</h3>
+                    <span class="org-en">Engineering Department</span>
+                </div>
+            </div>
+
+            <div class="org-connector"></div>
+
+            <div class="org-row five-cols">
+                <div class="org-box">
+                    <div class="org-icon">🏗️</div>
+                    <h4>مهندس مدني</h4>
+                    <span class="org-en">Civil Engineer</span>
+                </div>
+                <div class="org-box">
+                    <div class="org-icon">⚡</div>
+                    <h4>مهندس كهرباء</h4>
+                    <span class="org-en">Electrical Engineer</span>
+                </div>
+                <div class="org-box">
+                    <div class="org-icon">🔩</div>
+                    <h4>مهندس ميكانيكا</h4>
+                    <span class="org-en">Mechanical Engineer</span>
+                </div>
+                <div class="org-box">
+                    <div class="org-icon">✅</div>
+                    <h4>مهندس جودة (QC)</h4>
+                    <span class="org-en">QC Engineer</span>
+                </div>
+                <div class="org-box">
+                    <div class="org-icon">🛡️</div>
+                    <h4>مهندس سلامة (HSE)</h4>
+                    <span class="org-en">Safety Engineer</span>
+                </div>
+            </div>
+
+            <div class="org-connector"></div>
+
+            <!-- Execution Department -->
+            <div class="org-level">
+                <div class="org-box dept-header">
+                    <div class="org-icon">👷</div>
+                    <h3>إدارة التنفيذ</h3>
+                    <span class="org-en">Execution Department</span>
+                </div>
+            </div>
+
+            <div class="org-connector"></div>
+
+            <div class="org-row three-cols">
+                <div class="org-box">
+                    <div class="org-icon">📐</div>
+                    <h4>مشرفو مواقع</h4>
+                    <span class="org-en">Site Supervisors</span>
+                </div>
+                <div class="org-box">
+                    <div class="org-icon">🔨</div>
+                    <h4>فنيون</h4>
+                    <span class="org-en">Technicians</span>
+                </div>
+                <div class="org-box">
+                    <div class="org-icon">👷‍♂️</div>
+                    <h4>عمال مهرة</h4>
+                    <span class="org-en">Skilled Workers</span>
+                </div>
+            </div>
+
+            <div class="org-connector"></div>
+
+            <!-- Admin & Finance -->
+            <div class="org-level">
+                <div class="org-box dept-header">
+                    <div class="org-icon">📁</div>
+                    <h3>الإدارة الإدارية والمالية</h3>
+                    <span class="org-en">Admin & Finance</span>
+                </div>
+            </div>
+
+            <div class="org-connector"></div>
+
+            <div class="org-row three-cols">
+                <div class="org-box">
+                    <div class="org-icon">💵</div>
+                    <h4>محاسب</h4>
+                    <span class="org-en">Accountant</span>
+                </div>
+                <div class="org-box">
+                    <div class="org-icon">🛒</div>
+                    <h4>مسؤول مشتريات</h4>
+                    <span class="org-en">Procurement Officer</span>
+                </div>
+                <div class="org-box">
+                    <div class="org-icon">👥</div>
+                    <h4>شؤون الموظفين</h4>
+                    <span class="org-en">HR Officer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Certificates & Approvals Section -->
+    <section id="certificates">
+        <div 
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+        class="section-header fade-in">
+            <h2>شهاداتنا واعتماداتنا</h2>
+            <p>Certificates & Approvals</p>
+        </div>
+
+        <div class="cert-intro fade-in">
+            <p>
+                تحرص مؤسسة إمداد العمران للمقاولات على الالتزام بالمعايير المهنية والهندسية المعتمدة داخل المملكة، 
+                مما يعزز ثقة العملاء ويضمن جودة التنفيذ في جميع المشاريع.
+            </p>
+        </div>
+
+        <div class="cert-grid">
+            <!-- Certificate 1 -->
+            <div class="cert-card fade-in">
+                <div class="cert-badge">
+                    <div class="cert-icon">📋</div>
+                    <div class="cert-number">01</div>
+                </div>
+                <div class="cert-content">
+                    <h3>السجل التجاري</h3>
+                    <p>مؤسسة مسجلة رسميًا لدى وزارة التجارة في المملكة العربية السعودية.</p>
+                    <span class="cert-en">Commercial Registration</span>
+                    <p class="cert-en-desc">Officially registered with the Ministry of Commerce, Saudi Arabia.</p>
+                </div>
+                <div class="cert-footer">
+                    <span class="cert-status">✓ معتمد</span>
+                </div>
+            </div>
+
+            <!-- Certificate 2 -->
+            <div class="cert-card fade-in">
+                <div class="cert-badge">
+                    <div class="cert-icon">📊</div>
+                    <div class="cert-number">02</div>
+                </div>
+                <div class="cert-content">
+                    <h3>شهادة الزكاة والدخل</h3>
+                    <p>الالتزام الكامل بالأنظمة الضريبية والمالية المعتمدة.</p>
+                    <span class="cert-en">Zakat & Tax Compliance</span>
+                    <p class="cert-en-desc">Full compliance with national tax and zakat regulations.</p>
+                </div>
+                <div class="cert-footer">
+                    <span class="cert-status">✓ معتمد</span>
+                </div>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="cert-card fade-in">
+                <div class="cert-badge">
+                    <div class="cert-icon">👥</div>
+                    <div class="cert-number">03</div>
+                </div>
+                <div class="cert-content">
+                    <h3>شهادة التأمينات الاجتماعية</h3>
+                    <p>تسجيل العاملين والالتزام بأنظمة التأمينات.</p>
+                    <span class="cert-en">Social Insurance Certificate</span>
+                    <p class="cert-en-desc">Registered workforce under GOSI regulations.</p>
+                </div>
+                <div class="cert-footer">
+                    <span class="cert-status">✓ معتمد</span>
+                </div>
+            </div>
+
+            <!-- Certificate 4 -->
+            <div class="cert-card fade-in">
+                <div class="cert-badge">
+                    <div class="cert-icon">🛡️</div>
+                    <div class="cert-number">04</div>
+                </div>
+                <div class="cert-content">
+                    <h3>شهادة السلامة المهنية (HSE)</h3>
+                    <p>تطبيق معايير السلامة والصحة المهنية في مواقع العمل.</p>
+                    <span class="cert-en">Occupational Safety (HSE)</span>
+                    <p class="cert-en-desc">Implementation of safety and health standards across all project sites.</p>
+                </div>
+                <div class="cert-footer">
+                    <span class="cert-status">✓ معتمد</span>
+                </div>
+            </div>
+
+            <!-- Certificate 5 -->
+            <div class="cert-card fade-in">
+                <div class="cert-badge">
+                    <div class="cert-icon">🏛️</div>
+                    <div class="cert-number">05</div>
+                </div>
+                <div class="cert-content">
+                    <h3>اعتماد التعامل مع الجهات الحكومية</h3>
+                    <p>خبرة في تنفيذ مشاريع لصالح:</p>
+                    <ul class="cert-list">
+                        <li>وزارة الداخلية</li>
+                        <li>وزارة الدفاع</li>
+                        <li>وزارة الحرس الوطني</li>
+                        <li>وزارة الصحة</li>
+                        <li>الشؤون الصحية بالحرس الوطني</li>
+                    </ul>
+                    <span class="cert-en">Government Sector Approvals</span>
+                    <p class="cert-en-desc">Experience working with: Ministry of Interior, Ministry of Defense, National Guard Health Affairs, Ministry of Health.</p>
+                </div>
+                <div class="cert-footer">
+                    <span class="cert-status">✓ معتمد</span>
+                </div>
+            </div>
+
+            <!-- Certificate 6 -->
+            <div class="cert-card fade-in">
+                <div class="cert-badge">
+                    <div class="cert-icon">✅</div>
+                    <div class="cert-number">06</div>
+                </div>
+                <div class="cert-content">
+                    <h3>شهادات الجودة الداخلية</h3>
+                    <p>إجراءات ضبط جودة داخلية (QC) لضمان جودة التنفيذ في جميع مراحل المشروع.</p>
+                    <span class="cert-en">Internal Quality Control</span>
+                    <p class="cert-en-desc">Internal QC procedures ensuring high-quality project execution.</p>
+                </div>
+                <div class="cert-footer">
+                    <span class="cert-status">✓ معتمد</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Information Section -->
+        <!-- Contact Information Section -->
+    <section id="contact">
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+
+        <div class="section-header fade-in">
+            <h2>بيانات التواصل</h2>
+            <p>Contact Information</p>
+        </div>
+
+        <div class="contact-container fade-in">
+            <div class="contact-card main-card">
+                <div class="contact-logo">
+                    <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+                </div>
+                <h3 class="company-name">مؤسسة إمداد العمران للمقاولات</h3>
+                <span class="company-name-en">Imdad Al-Omran Contracting Establishment</span>
+
+                <div class="contact-divider"></div>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>العنوان – Address</h4>
+                            <p>ينبع البحر – حي السميري – شارع الأربعين</p>
+                            <span class="contact-en">Yanbu Al-Bahr – Al-Sameeri District – 40th Street</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>الجوال – Mobile</h4>
+                            <p>00966544706793</p>
+                            <p>00966567360675</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>البريد الإلكتروني – Email</h4>
+                            <p>aljaheen1@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item wide">
+                        <div class="contact-icon">🕐</div>
+                        <div class="contact-details">
+                            <h4>ساعات العمل – Working Hours</h4>
+                            <p>الأحد – الخميس: 9:00 ص إلى 5:00 م</p>
+                            <span class="contact-en">Sunday – Thursday: 9:00 AM to 5:00 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item wide">
+                        <div class="contact-icon">🏙️</div>
+                        <div class="contact-details">
+                            <h4>المدينة – City</h4>
+                            <p>ينبع – المملكة العربية السعودية</p>
+                            <span class="contact-en">Yanbu – Kingdom of Saudi Arabia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Page / Thank You Section -->
+    <section id="final" class="final-section">
+        <div class="final-container fade-in">
+            <div class="final-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+
+            <div class="final-content">
+                <h2 class="final-title">شكرًا لاهتمامكم</h2>
+                <p class="final-subtitle-en">Thank You</p>
+
+                <div class="final-divider">
+                    <span></span>
+                    <div class="final-star">⭐</div>
+                    <span></span>
+                </div>
+
+                <p class="final-message">
+                    تتطلع مؤسسة إمداد العمران للمقاولات إلى التعاون معكم في مشاريعكم القادمة، 
+                    وتقديم أفضل الحلول الهندسية والتنفيذية وفق أعلى معايير الجودة.
+                </p>
+
+                <p class="final-message-en">
+                    Imdad Al-Omran Contracting Est. looks forward to partnering with you on future projects 
+                    and delivering high-quality engineering and construction solutions.
+                </p>
+
+                <div class="final-company">
+                    <h3>مؤسسة إمداد العمران للمقاولات</h3>
+                    <span>Imdad Al-Omran Contracting Est.</span>
+                </div>
+
+                <div class="final-stamp">
+                    <div class="stamp-circle">
+                        <span class="stamp-text">معتمد</span>
+                        <span class="stamp-year">2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Clients Section -->
+    <section id="clients">
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+
+        <div class="section-header fade-in">
+            <h2>العملاء</h2>
+            <p>Clients</p>
+        </div>
+
+        <div class="clients-intro fade-in">
+            <p>
+                نفخر في مؤسسة إمداد العمران للمقاولات بشراكاتنا المتميزة مع كبرى الجهات الحكومية والخاصة، 
+                مما يعكس ثقة عملائنا في جودة أعمالنا واحترافيتنا.
+            </p>
+        </div>
+
+        <div class="clients-container">
+            <!-- Government Sector -->
+            <div class="clients-category fade-in">
+                <div class="category-header">
+                    <div class="category-icon">🏛️</div>
+                    <h3>عملاؤنا في القطاع الحكومي</h3>
+                    <span>Our Government Clients</span>
+                </div>
+                <div class="clients-grid">
+                    <div class="client-item">
+                        <div class="client-icon">🛡️</div>
+                        <h4>وزارة الدفاع</h4>
+                        <span>Ministry of Defense</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">✈️</div>
+                        <h4>قوات الدفاع الجوي الملكي السعودي</h4>
+                        <span>Royal Saudi Air Defense Forces</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🚧</div>
+                        <h4>وزارة الداخلية – حرس الحدود</h4>
+                        <span>Ministry of Interior – Border Guard</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏥</div>
+                        <h4>وزارة الصحة</h4>
+                        <span>Ministry of Health</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏭</div>
+                        <h4>وزارة التجارة والصناعة</h4>
+                        <span>Ministry of Commerce & Industry</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🛫</div>
+                        <h4>الهيئة العامة للطيران المدني</h4>
+                        <span>General Authority of Civil Aviation</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏗️</div>
+                        <h4>الهيئة الملكية للجبيل وينبع</h4>
+                        <span>Royal Commission for Jubail & Yanbu</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏘️</div>
+                        <h4>أمانة منطقة عسير</h4>
+                        <span>Aseer Municipality</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏙️</div>
+                        <h4>أمانة منطقة تبوك</h4>
+                        <span>Tabuk Municipality</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Private Sector -->
+            <div class="clients-category fade-in">
+                <div class="category-header">
+                    <div class="category-icon">💼</div>
+                    <h3>عملاؤنا في القطاع الخاص</h3>
+                    <span>Our Private Sector Clients</span>
+                </div>
+                <div class="clients-grid">
+                    <div class="client-item">
+                        <div class="client-icon">⛽</div>
+                        <h4>أرامكو السعودية</h4>
+                        <span>Saudi Aramco</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏢</div>
+                        <h4>إعمار الشرق الأوسط</h4>
+                        <span>Emaar Middle East</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">📡</div>
+                        <h4>موبايلي</h4>
+                        <span>Mobily</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">📶</div>
+                        <h4>زين</h4>
+                        <span>Zain</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏦</div>
+                        <h4>البنك الأهلي التجاري</h4>
+                        <span>National Commercial Bank (NCB)</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏗️</div>
+                        <h4>مجموعة براد</h4>
+                        <span>Barad Group</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🛍️</div>
+                        <h4>دارين مول</h4>
+                        <span>Dareen Mall</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏨</div>
+                        <h4>موفنبيك</h4>
+                        <span>Mövenpick Hotels & Resorts</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🖨️</div>
+                        <h4>Xerox</h4>
+                        <span>Xerox</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏬</div>
+                        <h4>Nazih Group</h4>
+                        <span>Nazih Group</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">✈️</div>
+                        <h4>Zamill Travel</h4>
+                        <span>Zamill Travel</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Sector -->
+            <div class="clients-category fade-in">
+                <div class="category-header">
+                    <div class="category-icon">🎓</div>
+                    <h3>عملاؤنا في قطاع التعليم</h3>
+                    <span>Education Sector Clients</span>
+                </div>
+                <div class="clients-grid">
+                    <div class="client-item">
+                        <div class="client-icon">📚</div>
+                        <h4>مدارس القمة</h4>
+                        <span>Al-Qimma Schools</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🎓</div>
+                        <h4>الكلية التقنية للبنات – ينبع</h4>
+                        <span>Yanbu Female Technical College</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Real Estate & Development -->
+            <div class="clients-category fade-in">
+                <div class="category-header">
+                    <div class="category-icon">🏘️</div>
+                    <h3>عملاؤنا في قطاع التطوير العقاري</h3>
+                    <span>Real Estate & Development Clients</span>
+                </div>
+                <div class="clients-grid">
+                    <div class="client-item">
+                        <div class="client-icon">🏠</div>
+                        <h4>مشاريع إسكان تنموي – المدينة المنورة</h4>
+                        <span>Development Housing Projects – Madinah</span>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-icon">🏗️</div>
+                        <h4>شركات تطوير خاصة متعددة</h4>
+                        <span>Various private development companies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Government Contracts Section -->
+    <section id="contracts">
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+
+        <div class="section-header fade-in">
+            <h2>العقود الحكومية</h2>
+            <p>Government Contracts</p>
+        </div>
+
+        <div class="contracts-intro fade-in">
+            <p>
+                نفخر في مؤسسة إمداد العمران للمقاولات بتنفيذ عقود حكومية وخاصة متنوعة، 
+                مع الالتزام بأعلى معايير الجودة والدقة في التنفيذ.
+            </p>
+        </div>
+
+        <div class="contracts-container">
+            <!-- Contract 1 -->
+            <div class="contract-card fade-in">
+                <div class="contract-header">
+                    <div class="contract-number">01</div>
+                    <div class="contract-badge">عقد حكومي</div>
+                </div>
+                <div class="contract-content">
+                    <h3>تعميد صيانة شاملة لبرج الرادار الساحلي – حرس الحدود – ينبع</h3>
+                    <span class="contract-en-title">Comprehensive Maintenance of Coastal Radar Tower – Border Guard – Yanbu</span>
+
+                    <div class="contract-details">
+                        <div class="contract-detail-item">
+                            <span class="detail-label">الجهة الحكومية:</span>
+                            <span class="detail-value">وزارة الداخلية – حرس الحدود</span>
+                            <span class="detail-en">Ministry of Interior – Border Guard</span>
+                        </div>
+                        <div class="contract-detail-item">
+                            <span class="detail-label">رقم المعاملة:</span>
+                            <span class="detail-value highlight">2609334874</span>
+                            <span class="detail-en">Reference No.: 2609334874</span>
+                        </div>
+                        <div class="contract-detail-item">
+                            <span class="detail-label">نطاق العمل:</span>
+                            <span class="detail-value">تنفيذ أعمال الصيانة الشاملة لبرج الرادار الساحلي بمركز المخرف</span>
+                            <span class="detail-en">Full maintenance works for the coastal radar tower at Al-Mukharrif Center</span>
+                        </div>
+                        <div class="contract-detail-row">
+                            <div class="contract-detail-item half">
+                                <span class="detail-label">مدة التنفيذ:</span>
+                                <span class="detail-value">60 يوم</span>
+                                <span class="detail-en">Duration: 60 days</span>
+                            </div>
+                            <div class="contract-detail-item half">
+                                <span class="detail-label">قيمة العقد:</span>
+                                <span class="detail-value highlight">27,999.97 ريال شامل الضريبة</span>
+                                <span class="detail-en">Contract Value: 27,999.97 SAR (VAT included)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contract 2 -->
+            <div class="contract-card fade-in">
+                <div class="contract-header">
+                    <div class="contract-number">02</div>
+                    <div class="contract-badge">عقد حكومي</div>
+                </div>
+                <div class="contract-content">
+                    <h3>تعميد إعادة تأهيل صالة المناسبات – كتيبة الدفاع الجوي 120 – ينبع</h3>
+                    <span class="contract-en-title">Rehabilitation of Events Hall – Air Defense Battalion 120 – Yanbu</span>
+
+                    <div class="contract-details">
+                        <div class="contract-detail-item">
+                            <span class="detail-label">الجهة الحكومية:</span>
+                            <span class="detail-value">وزارة الدفاع – قوات الدفاع الجوي</span>
+                            <span class="detail-en">Ministry of Defense – Air Defense Forces</span>
+                        </div>
+                        <div class="contract-detail-item">
+                            <span class="detail-label">رقم العرض:</span>
+                            <span class="detail-value highlight">240239000206</span>
+                            <span class="detail-en">Offer Reference: 240239000206</span>
+                        </div>
+                        <div class="contract-detail-item">
+                            <span class="detail-label">نطاق العمل:</span>
+                            <span class="detail-value">إعادة تأهيل صالة المناسبات بالكامل</span>
+                            <span class="detail-en">Full rehabilitation of the events hall</span>
+                        </div>
+                        <div class="contract-detail-row">
+                            <div class="contract-detail-item half">
+                                <span class="detail-label">مدة التنفيذ:</span>
+                                <span class="detail-value">30 يوم</span>
+                                <span class="detail-en">Duration: 30 days</span>
+                            </div>
+                            <div class="contract-detail-item half">
+                                <span class="detail-label">قيمة العقد:</span>
+                                <span class="detail-value highlight">81,483.25 ريال</span>
+                                <span class="detail-en">Contract Value: 81,483.25 SAR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contract 3 -->
+            <div class="contract-card fade-in">
+                <div class="contract-header">
+                    <div class="contract-number">03</div>
+                    <div class="contract-badge contract-private">عقد خاص</div>
+                </div>
+                <div class="contract-content">
+                    <h3>عقد أعمال تشطيبات – مشروع الإسكان التنموي – المدينة المنورة</h3>
+                    <span class="contract-en-title">Finishing Works Contract – Development Housing Project – Madinah</span>
+
+                    <div class="contract-details">
+                        <div class="contract-detail-item">
+                            <span class="detail-label">الجهة:</span>
+                            <span class="detail-value">شركة المسار الحديث المحدودة</span>
+                            <span class="detail-en">Entity: Al-Masar Al-Hadeeth Co.</span>
+                        </div>
+                        <div class="contract-detail-item">
+                            <span class="detail-label">رقم العقد:</span>
+                            <span class="detail-value highlight">PM-404-MSR-000079-25</span>
+                            <span class="detail-en">Contract No.: PM-404-MSR-000079-25</span>
+                        </div>
+                        <div class="contract-detail-item">
+                            <span class="detail-label">نطاق العمل:</span>
+                            <div class="detail-list">
+                                <span class="detail-value">• سيراميك</span>
+                                <span class="detail-value">• بورسلان</span>
+                                <span class="detail-value">• دهانات داخلية وخارجية</span>
+                                <span class="detail-value">• جرانيت السلالم والمدخل</span>
+                            </div>
+                            <span class="detail-en">Ceramic, Porcelain, Interior & exterior painting, Granite for stairs & entrance</span>
+                        </div>
+                        <div class="contract-detail-row">
+                            <div class="contract-detail-item half">
+                                <span class="detail-label">تاريخ العقد:</span>
+                                <span class="detail-value">10 ديسمبر 2024</span>
+                                <span class="detail-en">Contract Date: 10 December 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contract 4 -->
+            <div class="contract-card fade-in">
+                <div class="contract-header">
+                    <div class="contract-number">04</div>
+                    <div class="contract-badge contract-private">عقد خاص</div>
+                </div>
+                <div class="contract-content">
+                    <h3>عقد مقاولة من الباطن – مشروع فندق شيراتون – المدينة المنورة</h3>
+                    <span class="contract-en-title">Subcontract Agreement – Sheraton Taiba Hotel – Madinah</span>
+
+                    <div class="contract-details">
+                        <div class="contract-detail-item">
+                            <span class="detail-label">الجهة:</span>
+                            <span class="detail-value">اتحاد شركة الإنشاءات العربية السعودية وشركة الإنشاءات العربية مصر</span>
+                            <span class="detail-en">Entity: JV of Saudi Arabian Construction Co. & ACC Egypt</span>
+                        </div>
+                        <div class="contract-detail-item">
+                            <span class="detail-label">نطاق العمل:</span>
+                            <span class="detail-value">أعمال مصنعيات تركيب بورسلان الحوائط والأرضيات</span>
+                            <span class="detail-en">Workmanship for installation of wall & floor porcelain</span>
+                        </div>
+                        <div class="contract-detail-row">
+                            <div class="contract-detail-item half">
+                                <span class="detail-label">تاريخ العقد:</span>
+                                <span class="detail-value">15 يناير 2025</span>
+                                <span class="detail-en">Contract Date: 15 January 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Completed Projects Section -->
+    <section id="completed-projects">
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+
+        <div class="section-header fade-in">
+            <h2>المشاريع السابقة</h2>
+            <p>Completed Projects</p>
+        </div>
+
+        <div class="projects-intro fade-in">
+            <p>
+                نفخر في مؤسسة إمداد العمران للمقاولات بسجل حافل من المشاريع المنفذة بنجاح، 
+                والتي تعكس خبرتنا وقدرتنا على تنفيذ مشاريع متنوعة بأعلى معايير الجودة.
+            </p>
+        </div>
+
+        <div class="completed-projects-container">
+            <!-- Project 1 -->
+            <div class="completed-project-card fade-in">
+                <div class="project-header-bar">
+                    <div class="project-num">01</div>
+                    <div class="project-type">مشروع سكني</div>
+                </div>
+                <div class="completed-project-content">
+                    <h3>مشروع إنشاء 110 فيلا – أرامكو السعودية</h3>
+                    <span class="project-en-title">Construction of 110 Villas – Saudi Aramco</span>
+
+                    <div class="project-info-grid">
+                        <div class="project-info-item">
+                            <span class="info-label">المالك:</span>
+                            <span class="info-value">أرامكو السعودية</span>
+                            <span class="info-en">Owner: Saudi Aramco</span>
+                        </div>
+                        <div class="project-info-item">
+                            <span class="info-label">المقاول الرئيسي:</span>
+                            <span class="info-value">Projects Lines Contracting</span>
+                            <span class="info-en">Main Contractor: Projects Lines Contracting</span>
+                        </div>
+                        <div class="project-info-item full">
+                            <span class="info-label">نطاق العمل:</span>
+                            <span class="info-value">أعمال إنشاء كاملة لعدد 110 فيلا</span>
+                            <span class="info-en">Scope of Work: Full construction works for 110 villas</span>
+                        </div>
+                        <div class="project-info-item highlight-box">
+                            <span class="info-label">قيمة العقد:</span>
+                            <span class="info-value price">145 مليون ريال</span>
+                            <span class="info-en">Contract Value: 145 Million SAR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="completed-project-card fade-in">
+                <div class="project-header-bar">
+                    <div class="project-num">02</div>
+                    <div class="project-type">مشروع تجاري</div>
+                </div>
+                <div class="completed-project-content">
+                    <h3>مشروع Jeddah Gate – إعمار الشرق الأوسط</h3>
+                    <span class="project-en-title">Jeddah Gate Project – Emaar Middle East</span>
+
+                    <div class="project-info-grid">
+                        <div class="project-info-item">
+                            <span class="info-label">المالك:</span>
+                            <span class="info-value">إعمار الشرق الأوسط</span>
+                            <span class="info-en">Owner: Emaar Middle East</span>
+                        </div>
+                        <div class="project-info-item full">
+                            <span class="info-label">نطاق العمل:</span>
+                            <span class="info-value">أعمال إنشائية وتشطيبات</span>
+                            <span class="info-en">Scope of Work: Construction and finishing works</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="completed-project-card fade-in">
+                <div class="project-header-bar">
+                    <div class="project-num">03</div>
+                    <div class="project-type">مشروع تعليمي</div>
+                </div>
+                <div class="completed-project-content">
+                    <h3>الكلية التقنية للبنات – ينبع</h3>
+                    <span class="project-en-title">Yanbu Female Technical College</span>
+
+                    <div class="project-info-grid">
+                        <div class="project-info-item">
+                            <span class="info-label">المقاول الرئيسي:</span>
+                            <span class="info-value">شركة المبطي للمقاولات</span>
+                            <span class="info-en">Main Contractor: Al-Mabti Co.</span>
+                        </div>
+                        <div class="project-info-item full">
+                            <span class="info-label">نطاق العمل:</span>
+                            <div class="info-list">
+                                <span class="info-value">• أعمال مباني</span>
+                                <span class="info-value">• أعمال لياسة</span>
+                                <span class="info-value">• أعمال رخام وسيراميك</span>
+                            </div>
+                            <span class="info-en">Building works, Plastering, Marble & ceramic works</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="completed-project-card fade-in">
+                <div class="project-header-bar">
+                    <div class="project-num">04</div>
+                    <div class="project-type">مشروع عسكري</div>
+                </div>
+                <div class="completed-project-content">
+                    <h3>إنشاء معسكرات الحرس الوطني – ينبع</h3>
+                    <span class="project-en-title">National Guard Camps Construction – Yanbu</span>
+
+                    <div class="project-info-grid">
+                        <div class="project-info-item">
+                            <span class="info-label">المقاول الرئيسي:</span>
+                            <span class="info-value">شركة المبطي للمقاولات</span>
+                            <span class="info-en">Main Contractor: Al-Mabti Co.</span>
+                        </div>
+                        <div class="project-info-item full">
+                            <span class="info-label">نطاق العمل:</span>
+                            <span class="info-value">أعمال مباني ولياسة كاملة</span>
+                            <span class="info-en">Scope of Work: Full building and plastering works</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="completed-project-card fade-in">
+                <div class="project-header-bar">
+                    <div class="project-num">05</div>
+                    <div class="project-type">مشروع صناعي</div>
+                </div>
+                <div class="completed-project-content">
+                    <h3>مشروع RC1 – شركة بونج كيونج للمقاولات</h3>
+                    <span class="project-en-title">RC1 Project – Boong Kyung Contracting</span>
+
+                    <div class="project-info-grid">
+                        <div class="project-info-item full">
+                            <span class="info-label">نطاق العمل:</span>
+                            <div class="info-list">
+                                <span class="info-value">• دهانات</span>
+                                <span class="info-value">• سيراميك</span>
+                                <span class="info-value">• لياسة</span>
+                            </div>
+                            <span class="info-en">Painting, Ceramic works, Plastering</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="completed-project-card fade-in">
+                <div class="project-header-bar">
+                    <div class="project-num">06</div>
+                    <div class="project-type">مشروع سكني</div>
+                </div>
+                <div class="completed-project-content">
+                    <h3>إنشاء وتشيد أبراج – المدينة المنورة (طريق الهجرة)</h3>
+                    <span class="project-en-title">Construction of Towers – Madinah (Hijrah Road)</span>
+
+                    <div class="project-info-grid">
+                        <div class="project-info-item full">
+                            <span class="info-label">نطاق العمل:</span>
+                            <span class="info-value">أعمال خرسانات ولياسة</span>
+                            <span class="info-en">Scope of Work: Concrete and plastering works</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 7 -->
+            <div class="completed-project-card fade-in">
+                <div class="project-header-bar">
+                    <div class="project-num">07</div>
+                    <div class="project-type">مشروع ديني</div>
+                </div>
+                <div class="completed-project-content">
+                    <h3>مشروع مسجد عبدالله بن سالم الجارد – جدة</h3>
+                    <span class="project-en-title">Abdullah Bin Salem Al-Jard Mosque – Jeddah</span>
+
+                    <div class="project-info-grid">
+                        <div class="project-info-item full">
+                            <span class="info-label">نطاق العمل:</span>
+                            <div class="info-list">
+                                <span class="info-value">• أعمال إنشائية</span>
+                                <span class="info-value">• أعمال معمارية</span>
+                                <span class="info-value">• أعمال كهرباء وميكانيكا</span>
+                                <span class="info-value">• واجهات رخام وحجر</span>
+                                <span class="info-value">• واجهات زجاج استركتشر</span>
+                                <span class="info-value">• سكاي لايت</span>
+                            </div>
+                            <span class="info-en">Structural works, Architectural works, Electrical & mechanical systems, Marble & stone façades, Structural glazing, Skylight installation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 8 -->
+            <div class="completed-project-card fade-in">
+                <div class="project-header-bar">
+                    <div class="project-num">08</div>
+                    <div class="project-type">مشروع صيانة</div>
+                </div>
+                <div class="completed-project-content">
+                    <h3>صيانة برج الرادار الساحلي – حرس الحدود – ينبع</h3>
+                    <span class="project-en-title">Coastal Radar Tower Maintenance – Border Guard – Yanbu</span>
+
+                    <div class="project-info-grid">
+                        <div class="project-info-item">
+                            <span class="info-label">الجهة:</span>
+                            <span class="info-value">وزارة الداخلية – حرس الحدود</span>
+                            <span class="info-en">Entity: Ministry of Interior – Border Guard</span>
+                        </div>
+                        <div class="project-info-item">
+                            <span class="info-label">مدة التنفيذ:</span>
+                            <span class="info-value">60 يوم</span>
+                            <span class="info-en">Duration: 60 days</span>
+                        </div>
+                        <div class="project-info-item full">
+                            <span class="info-label">نطاق العمل:</span>
+                            <span class="info-value">صيانة شاملة للبرج</span>
+                            <span class="info-en">Scope of Work: Full maintenance works</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 9 -->
+            <div class="completed-project-card fade-in">
+                <div class="project-header-bar">
+                    <div class="project-num">09</div>
+                    <div class="project-type">مشروع إسكان</div>
+                </div>
+                <div class="completed-project-content">
+                    <h3>مشروع الإسكان التنموي – المدينة المنورة</h3>
+                    <span class="project-en-title">Development Housing Project – Madinah</span>
+
+                    <div class="project-info-grid">
+                        <div class="project-info-item">
+                            <span class="info-label">المالك:</span>
+                            <span class="info-value">شركة المسار الحديث</span>
+                            <span class="info-en">Owner: Al-Masar Al-Hadeeth Co.</span>
+                        </div>
+                        <div class="project-info-item full">
+                            <span class="info-label">نطاق العمل:</span>
+                            <div class="info-list">
+                                <span class="info-value">• سيراميك</span>
+                                <span class="info-value">• بورسلان</span>
+                                <span class="info-value">• دهانات داخلية وخارجية</span>
+                                <span class="info-value">• جرانيت السلالم والمدخل</span>
+                            </div>
+                            <span class="info-en">Ceramic, Porcelain, Interior & exterior painting, Granite for stairs & entrance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Capabilities Section -->
+    <section id="capabilities">
+        <div class="page-header fade-in">
+            <div class="page-header-logo">
+                <img src="/mnt/agents/upload/لوجو امداد العمران.jpg" alt="لوجو إمداد العمران">
+            </div>
+            <div class="page-header-text">
+                <h3>إمداد العمران للمقاولات</h3>
+                <span>Imdad Al-Omran Contracting</span>
+            </div>
+        </div>
+
+        <div class="section-header fade-in">
+            <h2>قدراتنا</h2>
+            <p>Our Capabilities</p>
+        </div>
+
+        <div class="capabilities-intro fade-in">
+            <p>
+                تتميز مؤسسة إمداد العمران للمقاولات بقدرات تنفيذية متكاملة، من الموارد البشرية والمعدات 
+                إلى إدارة المشاريع والالتزام بالجودة، مما يجعلنا شريكًا موثوقًا في تحقيق رؤية عملائنا.
+            </p>
+        </div>
+
+        <div class="capabilities-container">
+            <!-- Capability 1 -->
+            <div class="capability-card fade-in">
+                <div class="capability-header">
+                    <div class="capability-icon">👥</div>
+                    <div class="capability-number">01</div>
+                </div>
+                <div class="capability-content">
+                    <h3>الموارد البشرية المؤهلة</h3>
+                    <span class="capability-en">Qualified Human Resources</span>
+                    <p>نمتلك فريقًا متخصصًا من المهندسين، المشرفين، الفنيين، والعمالة المدربة القادرة على تنفيذ المشاريع بجودة عالية وفي الوقت المحدد.</p>
+                    <p class="capability-en-desc">We maintain a highly skilled workforce of engineers, supervisors, technicians, and trained labor capable of delivering high-quality work on schedule.</p>
+                </div>
+            </div>
+
+            <!-- Capability 2 -->
+            <div class="capability-card fade-in">
+                <div class="capability-header">
+                    <div class="capability-icon">⚙️</div>
+                    <div class="capability-number">02</div>
+                </div>
+                <div class="capability-content">
+                    <h3>المعدات والأدوات الحديثة</h3>
+                    <span class="capability-en">Modern Equipment & Tools</span>
+                    <p>تستخدم المؤسسة معدات حديثة وأدوات متطورة تضمن سرعة الإنجاز ودقة التنفيذ، وتشمل:</p>
+                    <ul class="capability-list">
+                        <li>معدات الخرسانة</li>
+                        <li>معدات الرفع</li>
+                        <li>معدات التشطيبات</li>
+                        <li>معدات الصيانة</li>
+                    </ul>
+                    <p class="capability-en-desc">We utilize modern equipment and advanced tools to ensure accuracy and efficiency across all project phases.</p>
+                </div>
+            </div>
+
+            <!-- Capability 3 -->
+            <div class="capability-card fade-in">
+                <div class="capability-header">
+                    <div class="capability-icon">📈</div>
+                    <div class="capability-number">03</div>
+                </div>
+                <div class="capability-content">
+                    <h3>القدرة الإنتاجية العالية</h3>
+                    <span class="capability-en">High Production Capacity</span>
+                    <p>لدينا القدرة على تنفيذ عدة مشاريع في وقت واحد بفضل نظام إدارة المشاريع المعتمد والكوادر المتوفرة.</p>
+                    <p class="capability-en-desc">We have the capacity to handle multiple projects simultaneously, supported by structured project management systems.</p>
+                </div>
+            </div>
+
+            <!-- Capability 4 -->
+            <div class="capability-card fade-in">
+                <div class="capability-header">
+                    <div class="capability-icon">📊</div>
+                    <div class="capability-number">04</div>
+                </div>
+                <div class="capability-content">
+                    <h3>إدارة مشاريع احترافية</h3>
+                    <span class="capability-en">Professional Project Management</span>
+                    <p>نطبق منهجيات إدارة المشاريع (PM) لضمان جودة التنفيذ، التحكم في الوقت، وإدارة المخاطر.</p>
+                    <p class="capability-en-desc">We apply professional project management methodologies to ensure quality, time control, and risk management.</p>
+                </div>
+            </div>
+
+            <!-- Capability 5 -->
+            <div class="capability-card fade-in">
+                <div class="capability-header">
+                    <div class="capability-icon">🛡️</div>
+                    <div class="capability-number">05</div>
+                </div>
+                <div class="capability-content">
+                    <h3>التزام كامل بالسلامة والجودة</h3>
+                    <span class="capability-en">Full Safety & Quality Commitment</span>
+                    <p>نلتزم بتطبيق إجراءات السلامة المهنية ومعايير الجودة وفق الأنظمة السعودية والمواصفات العالمية.</p>
+                    <p class="capability-en-desc">We maintain strict safety and quality standards, ensuring compliance with Saudi regulations and international best practices.</p>
+                </div>
+            </div>
+
+            <!-- Capability 6 -->
+            <div class="capability-card fade-in">
+                <div class="capability-header">
+                    <div class="capability-icon">🔗</div>
+                    <div class="capability-number">06</div>
+                </div>
+                <div class="capability-content">
+                    <h3>شبكة قوية من الموردين</h3>
+                    <span class="capability-en">Strong Supplier Network</span>
+                    <p>نتعامل مع موردين معتمدين لضمان جودة المواد وسرعة التوريد.</p>
+                    <p class="capability-en-desc">We work with trusted and approved suppliers to ensure material quality and timely delivery.</p>
+                </div>
+            </div>
+
+            <!-- Capability 7 -->
+            <div class="capability-card fade-in">
+                <div class="capability-header">
+                    <div class="capability-icon">🏛️</div>
+                    <div class="capability-number">07</div>
+                </div>
+                <div class="capability-content">
+                    <h3>خبرة واسعة في المشاريع الحكومية</h3>
+                    <span class="capability-en">Extensive Government Project Experience</span>
+                    <p>لدينا سجل قوي في تنفيذ مشاريع لصالح:</p>
+                    <ul class="capability-list">
+                        <li>وزارة الدفاع</li>
+                        <li>حرس الحدود</li>
+                        <li>وزارة الصحة</li>
+                        <li>مشاريع الإسكان</li>
+                        <li>شركات كبرى مثل أرامكو وإعمار</li>
+                    </ul>
+                    <p class="capability-en-desc">We have a proven track record with major government entities and leading private companies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <p>مؤسسة إمداد العمران للمقاولات | Imdad Al-Omran Contracting Est.</p>
+        <p class="copyright">© 2026 جميع الحقوق محفوظة | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Scroll Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Dynamic year
+        document.querySelector('.copyright').innerHTML = `© ${new Date().getFullYear()} جميع الحقوق محفوظة | All Rights Reserved`;
+    </script>
+</body>
+</html>
